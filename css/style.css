@@ -41,7 +41,6 @@ body {
     font-family: var(--body-font);
     color: var(--body-color);
     line-height: 1.5;
-
 }
 
 /* * START GLOBAL STYLE */
@@ -94,7 +93,9 @@ section {
     transform: translateX(-50%);
 
 }
-
+.container{
+    overflow: hidden;
+}
 
 /* *Navbar Style */
 
