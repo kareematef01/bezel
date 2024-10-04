@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ?======>   link bootstrap  <====== -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- ?======>   link font-awesome  <====== -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- ?======>   link AOS  <====== -->
+  <link rel="stylesheet" href="css/aos.css">
+  <!-- ?======>   animation style sheet  <======= -->
+  <link rel="stylesheet" href="css/animation.css">
+  <!-- ?======>   animate style sheet  <======= -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- ?======>   main style sheet  <======= -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- ?======>   media style sheet  <======= -->
+  <link rel="stylesheet" href="css/media.css">
+  <title>title</title>
+  <link rel="icon" href="images/favicon.png">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+  <!-- *Navbar -->
+  <nav id="navbar"
+    class="navbar navbar-custom navbar-expand-lg  bg-transparent bg fixed-top p-0 border-bottom border-1 shadow-sm"
+    data-aos="fade-down">
+    <div class="container px-5">
+      <a class="navbar-brand text-white" href="#"><img id="logo" src="images/logo-light.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav main-ul ms-auto me-3 ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link ms-lg-3" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-lg-3" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-lg-3" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-lg-3" href="#works">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-lg-3" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-lg-3" href="#">Contact</a>
+          </li>
+        </ul>
+        <div class=" icon-nav ">
+          <ul class="navbar-nav d-flex align-items-center justify-content-around flex-row gap-3">
+            <li> <a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="ms-lg-4 fa-brands fa-twitter"></i></a></li>
+            <li><a href=""><i class="ms-lg-4 fa-brands fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- *End Navbar -->
+
+  <!-- *home section -->
+  <header id="home" class="vh-100 position-relative">
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+      </div>
+
+      <div class="carousel-inner ">
+        <div class="carousel-item vh-100  active" data-bs-interval="5000">
+          <img src="images/slideshow-1.jpg" class="d-block w-100 h-100" alt="...">
+          <div class="layer position-absolute top-0 bottom-0 start-0 end-0"></div>
+          <div class="carousel-caption position-absolute start-50 top-50 translate-middle mt-0 mt-md-3 w-75 ">
+            <h1 class="animate__animated animate__fadeInDown animate__delay-2">Get Awesome.</h1>
+            <p class="mb-4 animate__animated animate__fadeInUp">We are an innovative company making digital stuff.</p>
+            <div
+              class="animate__animated animate__fadeInUp home-btn d-flex align-items-center justify-content-center gap-3">
+              <button class="btn btn-custom text-light btn-info">Read More</button>
+              <button class="btn btn-custom  btn-outline-light">Contact</button>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item vh-100" data-bs-interval="5000">
+          <img src="images/slideshow-2.jpg" class="d-block w-100 h-100" alt="...">
+          <div class="layer position-absolute top-0 bottom-0 start-0 end-0"></div>
+          <div class="carousel-caption position-absolute start-50 top-50 translate-middle mt-0 mt-md-3 w-75 ">
+            <h1 class="animate__animated animate__fadeInDown animate__delay-2">Create With Bezel.</h1>
+            <p class="mb-4 animate__animated animate__fadeInUp">We help ambitious companies create new value.</p>
+            <div
+              class="animate__animated animate__fadeInUp home-btn d-flex align-items-center justify-content-center gap-3">
+              <button class="btn btn-custom text-light btn-info">Here us</button>
+              <button class="btn btn-custom  btn-outline-light">Services</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-btn rounded-end-1">
+        <div class=" pt-3 carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class=" carousel-control-next-icon" aria-hidden="true"></span>
+        </div>
+        <hr>
+        <div class=" pb-3 carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class=" carousel-control-prev-icon" aria-hidden="true"></span>
+        </div>
+      </div>
+
+
+  </header>
+  <!-- *End home section -->
+
+  <main>
+
+    <!-- *About section -->
+    <section id="about">
+      <div class="container">
+        <div class="content text-center">
+          <h2 class="h6 text-black fs-5">Who We Are</h2>
+          <div class="caption w-75 m-auto fs-5 p-4">
+            <p class="mb-1"> We are an innovative company. We develop and design <span class="animate text-info"></span>
+              for</p>
+            <p> costumers around the world. Our clients are some of the most forward-looking companies in the world.</p>
+          </div>
+          <a class="btn btn-custom rounded-0  btn-outline-dark ">Read More</a>
+        </div>
+
+      </div>
+    </section>
+    <!-- *End About section -->
+
+    <!-- *Team section -->
+    <section id="team">
+      <div class="container">
+        <div class="main-caption text-center">
+          <h2>Creative Team</h2>
+          <p>We are digital thinkers</p>
+        </div>
+        <div class="row px-2 pt-4 pt-lg-0 px-xl-5">
+          <div class="col-lg-3 col-md-6 py-3 py-lg-5 px-3" data-aos-duration="600" data-aos="fade-up">
+            <div class="card border-0 position-relative overflow-hidden rounded-0">
+              <div class="layer position-absolute d-flex align-items-sm-start justify-content-between flex-column">
+                <ul class=" d-flex align-items-center justify-content-start flex-row gap-3 p-4 list-unstyled">
+                  <li> <a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href=""><i class=" fa-brands fa-twitter"></i></a></li>
+                  <li><a href=""><i class=" fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+                <div class="caption p-4">
+                  <h4>Luke Cage</h4>
+                  <span>Founder & CEO</span>
+                </div>
+              </div>
+              <img src="images/team-1.jpg" class="w-100" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 py-3 py-lg-5 px-3" data-aos="fade-up" data-aos-duration="600"
+            data-aos-delay="200">
+            <div class="card border-0 position-relative overflow-hidden rounded-0">
+              <div class="layer position-absolute d-flex align-items-sm-start justify-content-between flex-column">
+                <ul class=" d-flex align-items-center justify-content-start flex-row gap-3 p-4 list-unstyled">
+                  <li> <a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href=""><i class=" fa-brands fa-twitter"></i></a></li>
+                  <li><a href=""><i class=" fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+                <div class="caption p-4">
+                  <h4>Luke Cage</h4>
+                  <span>Founder & CEO</span>
+                </div>
+              </div>
+              <img src="images/team-2.jpg" class="w-100" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 py-3 py-lg-5 px-3" data-aos="fade-up" data-aos-duration="600"
+            data-aos-delay="400">
+            <div class="card border-0 position-relative overflow-hidden rounded-0">
+              <div class="layer position-absolute d-flex align-items-sm-start justify-content-between flex-column">
+                <ul class=" d-flex align-items-center justify-content-start flex-row gap-3 p-4 list-unstyled">
+                  <li> <a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href=""><i class=" fa-brands fa-twitter"></i></a></li>
+                  <li><a href=""><i class=" fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+                <div class="caption p-4">
+                  <h4>Luke Cage</h4>
+                  <span>Founder & CEO</span>
+                </div>
+              </div>
+              <img src="images/team-3.jpg" class="w-100" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 py-3 py-lg-5 px-3" data-aos="fade-up" data-aos-duration="600"
+            data-aos-delay="600">
+            <div class="card border-0 position-relative overflow-hidden rounded-0">
+              <div class="layer position-absolute d-flex align-items-sm-start justify-content-between flex-column">
+                <ul class=" d-flex align-items-center justify-content-start flex-row gap-3 p-4 list-unstyled">
+                  <li> <a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href=""><i class=" fa-brands fa-twitter"></i></a></li>
+                  <li><a href=""><i class=" fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+                <div class="caption p-4">
+                  <h4>Luke Cage</h4>
+                  <span>Founder & CEO</span>
+                </div>
+              </div>
+              <img src="images/team-4.jpg" class="w-100" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- *End Team section -->
+
+    <!-- *Services section -->
+    <section id="services">
+      <div class="container">
+        <div class="row text-center">
+          <div class=" col-lg-2 col-sm-4 py-5" data-aos="zoom-out">
+            <h4>Stunning Design</h4>
+          </div>
+          <div class=" col-lg-2 col-sm-4 py-5" data-aos="zoom-out" data-aos-delay="100">
+            <h4>Time Saver</h4>
+          </div>
+          <div class=" col-lg-2 col-sm-4 py-5" data-aos="zoom-out" data-aos-delay="200">
+            <h4>Clean Code</h4>
+          </div>
+          <div class=" col-lg-2 col-sm-4 py-5" data-aos="zoom-out" data-aos-delay="300">
+            <h4>Customizable</h4>
+          </div>
+          <div class=" col-lg-2 col-sm-4 py-5" data-aos="zoom-out" data-aos-delay="400">
+            <h4>Perfect Layout</h4>
+          </div>
+          <div class=" col-lg-2 col-sm-4 py-5" data-aos="zoom-out" data-aos-delay="500">
+            <h4>Retina Ready</h4>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-lg-6 col-12 px-lg-5 text-center text-lg-start ps-1" data-aos="fade-right">
+            <h2>What We Do.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ipsam ullam incidunt itaque nemo omnis
+              temporibus totam quibusdam repellat vero, recusandae excepturi dignissimos velit et alias amet, quia
+              facilis perferendis.</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 pt-4 pt-md-0">
+            <ul class="list-unstyled">
+              <li class="py-2" data-aos="fade-left"><i class="fa-regular fa-circle-check me-1"></i> Research</li>
+              <li class="py-2" data-aos="fade-left" data-aos-delay="50"><i class="fa-regular fa-circle-check me-1"></i>
+                Opportunity Analysis</li>
+              <li class="py-2" data-aos="fade-left" data-aos-delay="100"><i class="fa-regular fa-circle-check me-1"></i>
+                Consulting</li>
+              <li class="py-2" data-aos="fade-left" data-aos-delay="150"><i class="fa-regular fa-circle-check me-1"></i>
+                Brand Planning</li>
+              <li class="py-2" data-aos="fade-left" data-aos-delay="200"><i class="fa-regular fa-circle-check me-1"></i>
+                Customer Support</li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <ul class="list-unstyled">
+              <li class="py-2" data-aos="fade-left"><i class="fa-regular fa-circle-check me-1"></i> Research</li>
+              <li class="py-2" data-aos="fade-left" data-aos-delay="50"><i class="fa-regular fa-circle-check me-1"></i>
+                Opportunity Analysis</li>
+              <li class="py-2" data-aos="fade-left" data-aos-delay="100"><i class="fa-regular fa-circle-check me-1"></i>
+                Consulting</li>
+              <li class="py-2" data-aos="fade-left" data-aos-delay="150"><i class="fa-regular fa-circle-check me-1"></i>
+                Brand Planning</li>
+              <li class="py-2" data-aos="fade-left" data-aos-delay="200"><i class="fa-regular fa-circle-check me-1"></i>
+                Customer Support</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- *End Services section -->
+
+    <!-- *Works section -->
+    <section id="works">
+      <div class="container">
+        <div class="main text-center">
+          <h2>Cheap Prices</h2>
+          <p>We provide the best quality.</p>
+        </div>
+        <div class="row pt-5 px-5 gy-5">
+          <div class="col-lg-3 col-md-6 px-3 order-2 order-lg-0">
+            <div class="inner bg-white py-5 px-4 shadow-sm">
+              <div class="pb-3">
+                <h4 class="mb-3 text-black">Starter</h4>
+                <h2><span>$</span>9</h2>
+              </div>
+              <div class="caption">
+                <ul class="list-unstyled pt-4 ul">
+                  <li class="mb-3">Unlimited Connections</li>
+                  <li class="mb-3">24/7 Support</li>
+                  <li class="mb-3">Full SSL Protection</li>
+                  <li class="mb-3">Unlimited Channels</li>
+                </ul>
+              </div>
+              <button class="btn btn-info btn-custom px-3 py-2 text-white">sign up</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 px-3 order-3 order-lg-0">
+            <div class="inner bg-white py-5 px-4 shadow-sm">
+              <div class="pb-3">
+                <h4 class="mb-3 text-black">Silver</h4>
+                <h2><span>$</span>19</h2>
+              </div>
+              <div class="caption">
+                <ul class="list-unstyled pt-4 ul">
+                  <li class="mb-3">Unlimited Connections</li>
+                  <li class="mb-3">24/7 Support</li>
+                  <li class="mb-3">Full SSL Protection</li>
+                  <li class="mb-3">Unlimited Channels</li>
+                </ul>
+              </div>
+              <button class="btn btn-info btn-custom px-3 py-2 text-white">sign up</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 px-3 order-1 order-lg-0">
+            <div class="inner bg-white py-5 px-4 privite position-relative shadow-sm">
+              <div class="pb-3">
+                <h4 class="mb-3 text-black">Gold</h4> <span>best value</span>
+                <h2 class="text-info"><span>$</span>29</h2>
+              </div>
+              <div class="caption">
+                <ul class="list-unstyled pt-4 ul">
+                  <li class="mb-3">Unlimited Connections</li>
+                  <li class="mb-3">24/7 Support</li>
+                  <li class="mb-3">Full SSL Protection</li>
+                  <li class="mb-3">Unlimited Channels</li>
+                </ul>
+              </div>
+              <button class="btn btn-info btn-custom px-3 py-2 text-white">sign up</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 px-3 order-4 order-lg-0">
+            <div class="inner bg-white py-5 px-4 shadow-sm">
+              <div class="pb-3">
+                <h4 class="mb-3 text-black">Platinum</h4>
+                <h2><span>$</span>49</h2>
+              </div>
+              <div class="caption">
+                <ul class="list-unstyled pt-4 ul">
+                  <li class="mb-3">Unlimited Connections</li>
+                  <li class="mb-3">24/7 Support</li>
+                  <li class="mb-3">Full SSL Protection</li>
+                  <li class="mb-3">Unlimited Channels</li>
+                </ul>
+              </div>
+              <button class="btn btn-info btn-custom px-3 py-2 text-white">sign up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- *End Works section -->
+  </main>
+
+  <!-- *footer -->
+  <footer>
+
+  </footer>
+  <!-- *End footer -->
+
+  <!-- ?link javascript Aos -->
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- ?link javascript bootstrap -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- ?link javascript  script -->
+  <script src="js/script.js"></script>
+
+
+</body>
+
+</html>

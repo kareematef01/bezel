@@ -1,0 +1,33 @@
+@keyframes Skills{
+
+    0%{ content: "|"; }
+    2% { content: "w|"; }
+    4% { content: "we|"; }
+    8% { content: "web|"; }
+    12% { content: "webs|"; }
+    16% { content: "websi|"; }
+    20% { content: "websit|"; }
+    24% { content: "website|"; }
+    28% { content: "websites|"; }
+    
+
+    43% { content: "s|"; }
+    46% { content: "so|"; }
+    49% { content: "sof|"; }
+    52% { content: "soft|"; }
+    55% { content: "softw|"; }
+    58% { content: "softwa|"; }
+    61% { content: "softwar|"; }
+    64% { content: "softwares|"; }
+    
+
+    76% { content: "a|"; }
+    80% { content: "ap|"; }
+    84% { content: "app|"; }
+    88% { content: "apps|"; }
+    
+
+
+    
+
+}

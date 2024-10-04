@@ -1,0 +1,61 @@
+@media (max-width: 992px) {
+    .navbar-brand img {
+        content: url('../images/logo-dark.png'); 
+    }
+    #navbar {
+        background-color: #ffffff !important;
+    }
+    
+    #navbar .nav-link, #navbar .navbar-brand {
+        color: #000000 !important; 
+    }
+    
+    #navbar  .icon-nav a {
+        color: #000000 !important; 
+    } 
+    #navbar .icon-nav{
+        padding-left: 0 !important;
+    }
+    #navbar  .navbar-collapse  .main-ul{
+        border-top: rgb(0, 0, 0 , 0.2) solid 1px !important;
+    }
+}
+
+@media (max-width: 768px) {
+#home{
+    .carousel-inner h1{
+        font-size: 3.25rem;
+        font-weight: 500;
+    }
+    .slider-btn{
+        display: none;
+    }
+}
+
+}
+
+@media (max-width: 768px) {
+   #about{
+        .caption{
+            width: 98% !important;
+        }
+    }
+    
+    }
+    
+    @media only screen and (min-width: 992px) {
+        #services{
+            .container h2::before{
+                content: "W";
+                font-weight: 500;
+                color: rgb(54, 54, 54 , 0.6);
+                z-index: -1;
+                position: absolute;
+                font-size: 4.375rem;
+                top: -30px;
+                left: 25px;
+                transform: translateX(-50%);
+            }
+        }
+    }
+
