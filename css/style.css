@@ -126,7 +126,9 @@ section {
     color: var(--third-color) !important;
     font-weight: bold;
 }
-
+.navbar-scrolled .navbar-brand img {
+    height: 40px; 
+}
 /* !end scroll */
 .nav-link.active {
     color: var(--third-color) !important;
@@ -136,6 +138,7 @@ section {
 .navbar-brand img {
    max-height: 40px;
    vertical-align: top;
+   transition: 0.3 ease;
 }
 #navbar {
 
