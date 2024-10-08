@@ -1,61 +1,135 @@
+/* *========= navbar media ==========*/
+
 @media (max-width: 992px) {
     .navbar-brand img {
-        content: url('../images/logo-dark.png'); 
+        content: url('../images/logo-dark.png');
     }
+
     #navbar {
         background-color: #ffffff !important;
     }
-    
-    #navbar .nav-link, #navbar .navbar-brand {
-        color: #000000 !important; 
+
+    #navbar .nav-link,
+    #navbar .navbar-brand {
+        color: #000000 !important;
     }
-    
-    #navbar  .icon-nav a {
-        color: #000000 !important; 
-    } 
-    #navbar .icon-nav{
+
+    #navbar .icon-nav a {
+        color: #000000 !important;
+    }
+
+    #navbar .icon-nav {
         padding-left: 0 !important;
     }
-    #navbar  .navbar-collapse  .main-ul{
-        border-top: rgb(0, 0, 0 , 0.2) solid 1px !important;
+
+    #navbar .navbar-collapse .main-ul {
+        border-top: rgb(0, 0, 0, 0.2) solid 1px !important;
     }
 }
+
+/* *========= home media ==========*/
 
 @media (max-width: 768px) {
-#home{
-    .carousel-inner h1{
-        font-size: 3.25rem;
-        font-weight: 500;
+    #home {
+        .carousel-inner h1 {
+            font-size: 3.25rem;
+            font-weight: 500;
+        }
+
+        .slider-btn {
+            display: none;
+        }
     }
-    .slider-btn{
-        display: none;
-    }
-}
 
 }
+
+/* *========= about media ==========*/
 
 @media (max-width: 768px) {
-   #about{
-        .caption{
+    #about {
+        .caption {
             width: 98% !important;
         }
     }
-    
-    }
-    
-    @media only screen and (min-width: 992px) {
-        #services{
-            .container h2::before{
-                content: "W";
-                font-weight: 500;
-                color: rgb(54, 54, 54 , 0.6);
-                z-index: -1;
-                position: absolute;
-                font-size: 4.375rem;
-                top: -30px;
-                left: 25px;
-                transform: translateX(-50%);
-            }
+
+}
+
+/* *========= service and pricing media ==========*/
+
+@media only screen and (min-width: 992px) {
+    #services {
+        .container h2::before {
+            content: "W";
+            font-weight: 500;
+            color: rgb(54, 54, 54, 0.6);
+            z-index: -1;
+            position: absolute;
+            font-size: 4.375rem;
+            top: -30px;
+            left: 25px;
+            transform: translateX(-50%);
         }
     }
 
+    #pricing {
+        .privite {
+            transform: scale(1.1);
+        }
+    }
+}
+
+/* *========= customers media ==========*/
+
+@media (max-width: 992px) {
+    #customers {
+        .item {
+            padding: 150px 0px;
+
+        }
+    }
+}
+
+@media (max-width:768px) {
+    #customers {
+        .item {
+            padding: 220px 0px;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    #customers {
+
+        .carousel-control-prev span i {
+            display: block;
+        }
+
+        .carousel-control-next span i {
+            display: block;
+        }
+    }
+
+}
+
+
+
+@media (max-width: 992px) {
+
+    #contact {
+        iframe {
+            width: 100%;
+            height: 200%;
+        }
+
+        .contact-form {
+            padding-top: 200px;
+            padding-inline: 0px;
+        }
+
+        .main-caption h2::before {
+            left: 50%;
+        }
+    }
+}

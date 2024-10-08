@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="css/style.css">
   <!-- ?======>   media style sheet  <======= -->
   <link rel="stylesheet" href="css/media.css">
-  <title>title</title>
+  <title>Bezel</title>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbar">
@@ -47,13 +47,13 @@
             <a class="nav-link ms-lg-3" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link ms-lg-3" href="#works">Works</a>
+            <a class="nav-link ms-lg-3" href="#">Works</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link ms-lg-3" href="#">Pricing</a>
+            <a class="nav-link ms-lg-3" href="#pricing">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link ms-lg-3" href="#">Contact</a>
+            <a class="nav-link ms-lg-3" href="#contact">Contact</a>
           </li>
         </ul>
         <div class=" icon-nav ">
@@ -287,14 +287,14 @@
     </section>
     <!-- *End Services section -->
 
-    <!-- *Works section -->
-    <section id="works">
+    <!-- *pricing section -->
+    <section id="pricing">
       <div class="container pt-3 pb-4">
         <div class="main text-center">
           <h2>Cheap Prices</h2>
           <p>We provide the best quality.</p>
         </div>
-        <div class="row pt-5 px-5 gy-5">
+        <div class="row pt-5 px-4 px-lg-5 gy-5">
           <div class="col-lg-3 col-md-6 px-3 order-2 order-lg-0">
             <div class="inner bg-white py-5 px-4 shadow-sm">
               <div class="pb-3">
@@ -367,7 +367,110 @@
       </div>
 
     </section>
-    <!-- *End Works section -->
+    <!-- *End pricing section -->
+
+    <!-- *Customers section -->
+    <section id="customers" class="pt-5">
+      <div class="title text-black text-center">
+        <h6>Happy Customers</h6>
+      </div>
+      <div class="container ">
+        <div id="carouselExampleCaptions2" class="carousel slide">
+          <div class="carousel-inner pt-5 mb-5">
+            <div class="carousel-item active p-4 pt-4 ">
+              <div class="item  position-relative shadow ">
+                <img src="images/testimonial-1.jpg"
+                  class="rounded-circle position-absolute top-0 start-50 translate-middle" alt="image">
+                <div class="carousel-caption ">
+                  <h4 class="text-dark">Marissa Mayer</h4>
+                  <span>CEO, Yahoo</span>
+                  <p>Quo rem cumque facere modi beatae. Deleniti nisi, repellat quae aspernatur consequatur
+                    consequuntur, fugit asperiores delectus beatae. Quae veniam, quidem cupiditate quia? Ut iste
+                    deleniti.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item p-4 pt-4 ">
+              <div class="item  position-relative shadow ">
+                <img src="images/testimonial-2.jpg"
+                  class="rounded-circle position-absolute top-0 start-50 translate-middle" alt="image">
+                <div class="carousel-caption ">
+                  <h4 class="text-dark position-relative ">Mark Zuckerberg</h4>
+                  <span>Founder & CEO, Facebook</span>
+                  <p>Quo rem cumque facere modi beatae. Deleniti nisi, repellat quae aspernatur consequatur
+                    consequuntur, fugit asperiores delectus beatae. Quae veniam, quidem cupiditate quia? Ut iste
+                    deleniti.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-indicators position-static ">
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2"
+            data-bs-slide="prev">
+            <span><i class="fs-3 fa-solid fa-arrow-left-long"></i></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2"
+            data-bs-slide="next">
+            <span><i class="fs-3 fa-solid fa-arrow-right-long"></i></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- * End Customers section -->
+
+    <!-- * contact section -->
+    <section id="contact">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d774398.4261005721!2d-73.41924700275656!3d40.69613305027864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z2YbZitmI2YrZiNix2YPYjCDYp9mE2YjZhNin2YrYp9iqINin2YTZhdiq2K3Yr9ip!5e0!3m2!1sar!2seg!4v1728218683663!5m2!1sar!2seg"
+               style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col-lg-6 contact-form px-lg-3">
+            <div class="main-caption text-center ps-lg-5 text-lg-start mb-5">
+              <h2>Get In Touch</h2>
+              <p>Let's work together.</p>
+            </div>
+            <form class="w-75 m-auto px-2 px-lg-5 m-lg-0" action="">
+              <div class="form-group">
+                <label>Your Name</label>
+                <input class="form-control" type="text" name="name">
+              </div>
+              <div class="form-group">
+                <label>Your Email</label>
+                <input class="form-control" type="email" name="email">
+              </div>
+              <div class="form-group">
+                <label>Phone Number</label>
+                <input class="form-control" type="text" name="phone">
+              </div>
+              <div class="form-group">
+                <label>Your Message</label>
+                <textarea class="form-control" name="message"></textarea>
+              </div>
+              <div class="form-group mt-3">
+                <button class="btn btn-custom btn-info text-white" type="submit">Send Message</button>
+              </div>
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- * End contact section -->
+
   </main>
 
   <!-- *footer -->
