@@ -48,7 +48,7 @@
 @media (max-width: 768px) {
     #about {
         .caption {
-            width: 98% !important;
+            width: 100% !important;
         }
     }
 
